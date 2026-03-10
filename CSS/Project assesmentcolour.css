@@ -51,7 +51,7 @@ nav:after {
 }
 
 body {
-    background-image: url("clay-banks-u27Rrbs9Dwc-unsplash.jpg");
+    background-image: url("/Assests/Mount\ fuji.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -85,11 +85,11 @@ img {
 .collapsible label {
     position: relative;
     font-weight: 600;
-    background: white;
+    background:;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), 0 4px 11px rgba(0, 0, 0, .08);
     color: #1c1c6b;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 27px;
     cursor: pointer;
     padding: -20px;
     border-radius: 100px;
@@ -146,11 +146,11 @@ img {
 .collaps label {
     position: relative;
     font-weight: 600;
-    background: white;
+    background;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), 0 4px 11px rgba(0, 0, 0, .08);
     color: #1c1c6b;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     cursor: pointer;
     padding: -20px;
     border-radius: 100px;
@@ -215,11 +215,11 @@ img {
 .collaped label {
     position: relative;
     font-weight: 600;
-    background: white;
+    background:;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), 0 4px 11px rgba(0, 0, 0, .08);
     color: #1c1c6b;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 81px;
     cursor: pointer;
     padding: -20px;
     border-radius: 100px;
