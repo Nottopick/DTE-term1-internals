@@ -173,6 +173,7 @@ img {
 .collapsible-text p {
     padding-left: 15px;
     padding-right: 15px;
+    color: black;
 
 }
 
@@ -234,8 +235,9 @@ img {
 .collapsible-msg p {
     padding-left: 15px;
     padding-right: 15px;
-
+    color: black;
 }
+
 
 .flexbox {
     display: flex;
@@ -303,7 +305,7 @@ img {
 .collaped-msg p {
     padding-left: 15px;
     padding-right: 15px;
-
+color: black;
 }
 
 
