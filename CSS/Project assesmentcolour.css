@@ -1,3 +1,5 @@
+/*carousel content*/
+
 .carousel {
     margin: 100px auto;
     width: 90%;
@@ -36,7 +38,7 @@ animation: spin 25s infinite linear
     from {translate: 0;}
     to {translate: -100%;}
 }
-
+/*nav bar content*/
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -88,7 +90,7 @@ nav:after {
     display: block;
     clear: both;
 }
-
+/*styles*/
 body {
     background-image: url("/Assests/Mount\ fuji.jpg");
     background-repeat: no-repeat;
@@ -112,7 +114,7 @@ img {
     border-width: 5px;
     border-radius: 50px;
 }
-
+/*1st collapsible list content*/
 .collapsible {
     padding: 10px;
     flex: auto;
@@ -176,7 +178,7 @@ img {
     color: black;
 
 }
-
+/*2nd collapsible list content*/
 .collaps {
     max-width: 450px;
     overflow: hidden;
@@ -246,7 +248,7 @@ img {
     justify-content: center;
     
 }
-
+/*3rd collapsible list content*/
 .collaped {
     max-width: 450px;
     overflow: hidden;
@@ -319,6 +321,7 @@ footer{
     display: flex;
     justify-content: center;
 }
+/*Footer content*/
 .footer{
     width:33.3%;
 }
@@ -392,4 +395,34 @@ a:hover{
     margin: 0;
     font-size: 16px;
     padding: 7px;
+}
+/*more carousel content*/
+.carousel{
+    overflow: hidden;
+    width: 700px;
+    background-color: #1e272e;
+    padding: 30px 0;
+    margin-top: 60px;
+    border-radius: 5px;
+    box-shadow: 20px 35px 35px rgba(0, 0, 0, 0.5s);
+}
+.image-container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 250px;
+    justify-items: stretch;
+    animation: animation 12s linear;
+}
+
+.image-container img{
+    width: 200px;
+    height: 270px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 1px solid #a5b1c2;
+}
+@keyframes animation {
+    to{
+        translate: calc(-4*250px);
+    }
 }
